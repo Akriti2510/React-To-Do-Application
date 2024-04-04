@@ -7,7 +7,7 @@ const TodoItem = ({t,ondelete}) => {
     <Box marginLeft={130} marginRight={100} marginBottom={30} bg={'rgb(60, 130, 125)'} borderRadius={20} padding={8}>
       <Heading fontSize={40}>{t.sno}-   {t.title}</Heading>
       <Text fontSize={25}>{t.desc}</Text>
-      <Button onClick={()=>{ondelete(t)}} colorScheme='white' bgColor={'white'} fontSize={25} marginBottom={5} marginLeft={1000}>Delete Task</Button>
+      <Button onClick={()=>{ondelete(t)}} colorScheme='teal' bgColor={'black'} color={'teal'} fontSize={25} marginBottom={5} marginLeft={1000}>Delete Task</Button>
     </Box>  
     </>
   )
